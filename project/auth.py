@@ -5,6 +5,8 @@ from .models import User
 from . import db
 from werkzeug.security import generate_password_hash, check_password_hash
 
+#testing change
+
 auth = Blueprint('auth', __name__)
 
 @auth.route('/login')
